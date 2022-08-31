@@ -1,0 +1,739 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="htmldeEnvio.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+
+&lt;html lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+
+        .auto-style1 {
+            width: 86px;
+            height: 91px;
+        }
+        .auto-style2 {
+            width: 275px;
+        }
+        .auto-style3 {
+            width: 126px;
+            height: 76px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;table bgcolor="#2D333E" border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+        &lt;tr&gt;
+            &lt;td align="center" class="m_-4837111309844657692both" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; padding: 0px 20px;"&gt;
+                &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                    &lt;tr&gt;
+                        &lt;td height="74" style="https: //mail.google.com/mail/u/4?ui=2&amp;amp;ik=b3dfb047a3&amp;amp;attid=0.1&amp;amp;permmsgid=msg-f:1622839612304203296&amp;amp;th=16857c077ad31e20&amp;amp;view=att&amp;amp;disp=inline;" width="40"&gt;
+                            &lt;img alt="a" class="auto-style1" src="https://ada369.com/wp-content/uploads/2019/08/cropped-ada369.png" /&gt; &lt;/td&gt;
+                        &lt;td style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; font-size: 28px; color: rgb(255, 255, 255); text-align: center;" width="510"&gt;Ada 369&lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;table bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+        &lt;tr&gt;
+            &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                            &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                                &lt;tr&gt;
+                                    &lt;td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; padding: 25px 15px 0px;"&gt;
+                                        &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="center" colspan="2" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; color: rgb(35, 113, 110); font-size: 34px; line-height: 64px;"&gt;Cierre de caja&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr valign="top"&gt;
+                                                &lt;td align="center" class="m_-4837111309844657692ios" colspan="2" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; font-size: 21px; line-height: 26px; color: rgb(124, 129, 132); padding-bottom: 23px;" valign="top"&gt;&lt;span style="white-space: nowrap;"&gt;@fecha&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr valign="top"&gt;
+                                                &lt;td align="center" class="m_-4837111309844657692ios" colspan="2" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; font-size: 18px; line-height: 26px; color: rgb(113, 142, 137); padding-bottom: 23px;" valign="top"&gt;&lt;span style="white-space: nowrap;"&gt;Cajero : @usuario_nombre&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+        &lt;tr&gt;
+            &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                            &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="center" background="https://ci6.googleusercontent.com/proxy/JSd-MSza-iLqK-4w7lp6sN6jZWmSXfHKjmb3sxW3PUiEHEiAqbMtiUuxExeH4pWsxTagGp4o5KJ-5Ek2VmsgwXZrnPECNV4J6LK6VQbn=s0-d-e1-ft#http://www.eleventa.com/img/notificaciones/corte/strike.jpg" bgcolor="#FFFFFF" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" valign="top" width="580"&gt;
+                                        &lt;div&gt;
+                                            &lt;table align="center" border="0" cellpadding="0" cellspacing="0"&gt;
+                                                &lt;tr&gt;
+                                                    &lt;td style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; background: rgb(255, 255, 255); padding: 0px 16px; font-size: 21px; line-height: 21px; height: 40px; color: rgb(61, 69, 76); text-align: center;"&gt;Resumen&lt;/td&gt;
+                                                &lt;/tr&gt;
+                                            &lt;/table&gt;
+                                        &lt;/div&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                            &lt;table border="0" cellpadding="0" cellspacing="0" class="m_-4837111309844657692both" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: rgb(61, 69, 76); text-align: left; padding: 0px 15px;"&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="left" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" width="275"&gt;&lt;span style="font-weight: 500; font-size: 20px;"&gt;Ventas Totales&lt;/span&gt;&lt;/td&gt;
+                                    &lt;td align="right" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" width="275"&gt;@ventas_totales&amp;nbsp;&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="left" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&lt;span style="font-weight: 500; font-size: 20px;"&gt;Ganancia&lt;/span&gt;&lt;/td&gt;
+                                    &lt;td align="right" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;@Ganancias&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;br /&gt;
+                &lt;br /&gt;
+                &lt;table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                            &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                                        &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="center" background="https://ci6.googleusercontent.com/proxy/JSd-MSza-iLqK-4w7lp6sN6jZWmSXfHKjmb3sxW3PUiEHEiAqbMtiUuxExeH4pWsxTagGp4o5KJ-5Ek2VmsgwXZrnPECNV4J6LK6VQbn=s0-d-e1-ft#http://www.eleventa.com/img/notificaciones/corte/strike.jpg" bgcolor="#FFFFFF" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" valign="top" width="580"&gt;
+                                                    &lt;div&gt;
+                                                        &lt;table align="center" border="0" cellpadding="0" cellspacing="0"&gt;
+                                                            &lt;tr&gt;
+                                                                &lt;td style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; background: rgb(255, 255, 255); padding: 0px 16px; font-size: 21px; line-height: 21px; height: 40px; color: rgb(61, 69, 76); text-align: center;"&gt;Dinero en Caja&lt;/td&gt;
+                                                            &lt;/tr&gt;
+                                                        &lt;/table&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                                        &lt;table border="0" cellpadding="0" cellspacing="0" class="m_-4837111309844657692both" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: rgb(61, 69, 76); text-align: left; padding: 0px 15px;"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" bgcolor="#e9f9f8" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" width="275"&gt;&amp;nbsp;Fondo de Caja&lt;/td&gt;
+                                                &lt;td align="right" bgcolor="#e9f9f8" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" width="275"&gt;&lt;span style="color: green;"&gt;+ @fondo_caja&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&amp;nbsp;Ventas en Efectivo&lt;/td&gt;
+                                                &lt;td align="right" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&lt;span style="color: green;"&gt;+ @ventas_efectivo&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" bgcolor="#e9f9f8" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;Pagos en Efectivo&lt;/td&gt;
+                                                &lt;td align="right" bgcolor="#e9f9f8" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&lt;span style="color: rgb(173, 30, 30);"&gt;- @pagos&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" bgcolor="#e9f9f8" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&amp;nbsp;Cobros en Efectivo&lt;/td&gt;
+                                                &lt;td align="right" bgcolor="#e9f9f8" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&lt;span style="color: green;"&gt;+ @cobros&amp;nbsp;&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;Ingresos Varios&lt;/td&gt;
+                                                &lt;td align="right" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&lt;span style="color: green;"&gt;+ @ingresosvarios&amp;nbsp;&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" bgcolor="#e9f9f8" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;Gastos Varios&lt;/td&gt;
+                                                &lt;td align="right" bgcolor="#e9f9f8" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&lt;span style="color: rgb(173, 30, 30);"&gt;- @gastosvarios&lt;/span&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&amp;nbsp;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-weight: 600;"&gt;&amp;nbsp;Esperado&lt;/td&gt;
+                                                &lt;td align="right" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-weight: 600;"&gt;@esperado&amp;nbsp;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                            &lt;br /&gt;
+                            &lt;br /&gt;
+                            &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                                        &lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="center" background="https://ci6.googleusercontent.com/proxy/JSd-MSza-iLqK-4w7lp6sN6jZWmSXfHKjmb3sxW3PUiEHEiAqbMtiUuxExeH4pWsxTagGp4o5KJ-5Ek2VmsgwXZrnPECNV4J6LK6VQbn=s0-d-e1-ft#http://www.eleventa.com/img/notificaciones/corte/strike.jpg" bgcolor="#FFFFFF" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" valign="top" width="580"&gt;
+                                                    &lt;div&gt;
+                                                        &lt;table align="center" border="0" cellpadding="0" cellspacing="0"&gt;
+                                                            &lt;tr&gt;
+                                                                &lt;td style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; background: rgb(255, 255, 255); padding: 0px 16px; font-size: 21px; line-height: 21px; height: 40px; color: rgb(61, 69, 76); text-align: center;"&gt;Ventas&lt;/td&gt;
+                                                            &lt;/tr&gt;
+                                                        &lt;/table&gt;
+                                                    &lt;/div&gt;
+                                                &lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                                &lt;tr&gt;
+                                    &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                                        &lt;table border="0" cellpadding="0" cellspacing="0" class="m_-4837111309844657692both" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; font-size: 16px; line-height: 24px; color: rgb(61, 69, 76); text-align: left; padding: 0px 15px;"&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" bgcolor="#e9f9f8" class="auto-style2" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&amp;nbsp;En Efectivo&lt;/td&gt;
+                                                &lt;td align="right" bgcolor="#e9f9f8" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;" width="275"&gt;@vefectivo&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" class="auto-style2" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&amp;nbsp;Con Tarjeta&lt;/td&gt;
+                                                &lt;td align="right" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&amp;nbsp;@vtarjeta&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" bgcolor="#e9f9f8" class="auto-style2" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;&amp;nbsp;A crédito&lt;/td&gt;
+                                                &lt;td align="right" bgcolor="#e9f9f8" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;@vcredito&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td bgcolor="#EBECED" colspan="2" height="1" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-size: 0px; line-height: 0;"&gt;&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                            &lt;tr&gt;
+                                                &lt;td align="left" class="auto-style2" height="40" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-weight: 600;"&gt;&amp;nbsp;Total de Ventas&lt;/td&gt;
+                                                &lt;td align="right" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; font-weight: 600;"&gt;@Tventas&lt;/td&gt;
+                                            &lt;/tr&gt;
+                                        &lt;/table&gt;
+                                    &lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                            &lt;br /&gt;
+                            &lt;br /&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+                &lt;table align="center" bgcolor="#f7f7f7" border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, sans-serif; margin: 0px; border-collapse: collapse; font-size: 13px; line-height: 26px; color: rgb(95, 106, 124); text-align: center; padding: 24px 20px 0px;"&gt;Generado por&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a data-saferedirecturl="https://www.google.com/url?q=http://www.eleventa.com/?utm_source%3Dreporte_de_corte&amp;amp;source=gmail&amp;amp;ust=1547613136310000&amp;amp;usg=AFQjCNGPvhRS4JonW7H6C9GqwJrLCR4r7Q" href="http://www.eleventa.com/?utm_source=reporte_de_corte" style="color: rgb(73, 98, 179); text-decoration: none;" target="_blank"&gt;&lt;span class="il"&gt;Ada 369&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;punto de venta&lt;/a&gt;. Version 20&lt;span&gt;20&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+                            2012 - 2020 Codigo 369 S.A. Todos los derechos reservados.&lt;br /&gt;
+                            &lt;span style="font-size: 11px; color: rgb(151, 151, 151);"&gt;Si deseas dejar de recibir estos reportes por favor desactiva el envio desde&lt;span&gt;&amp;nbsp;Ada 369 &lt;/span&gt;en el apartado de Configuracion &amp;gt; Corte&lt;/span&gt; &lt;/td&gt;
+                    &lt;/tr&gt;
+                    &lt;tr&gt;
+                        &lt;td align="center" style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse;"&gt;
+                            &lt;table border="0" cellpadding="0" cellspacing="0"&gt;
+                                &lt;tr valign="top"&gt;
+                                    &lt;td style="font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif; margin: 0px; border-collapse: collapse; padding: 10px 0px 30px;" valign="top"&gt;&lt;a id="m_-4837111309844657692footer_jewel" data-saferedirecturl="https://www.google.com/url?q=http://www.bambucode.com/?utm_source%3Dreporte_de_corte&amp;amp;source=gmail&amp;amp;ust=1547613136311000&amp;amp;usg=AFQjCNFl6USfrLks0TALOUzEMEJS7kjujw" href="http://www.bambucode.com/?utm_source=reporte_de_corte" name="m_-4837111309844657692_footer_jewel" style="color: rgb(17, 85, 204);" target="_blank"&gt;&amp;nbsp;&lt;/a&gt;&lt;img alt="" class="auto-style3" src="https://i.ytimg.com/vi/kqlxBvZ82tU/maxresdefault.jpg" /&gt;&lt;/td&gt;
+                                &lt;/tr&gt;
+                            &lt;/table&gt;
+                        &lt;/td&gt;
+                    &lt;/tr&gt;
+                &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+</root>

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Ada369Csharp.Presentacion;
+using Ada369Csharp.Presentacion.Compras;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
-
 namespace Ada369Csharp
 {
     static class Program
@@ -15,7 +16,20 @@ namespace Ada369Csharp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            var frm = new LOGIN();
+            frm.FormClosed += Frm_FormClosed;
+            frm.ShowDialog();
+            Application.Run();
+
+
+            //Application.Run(new Presentacion.Prueba.Form1());
+
+        }
+
+        private static void Frm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.ExitThread();
+            Application.Exit();
         }
     }
 }
